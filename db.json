@@ -1,0 +1,24 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Test post",
+      "content": "yaaay!! it works"
+    },
+    {
+      "id": 2,
+      "title": "Test post 2",
+      "content": "really works"
+    },
+    {
+      "id": 3,
+      "title": "Test post 3",
+      "content": "definateley works"
+    },
+    {
+      "id": 4,
+      "title": "Test post 3",
+      "content": "yaaay!! it works again"
+    }
+  ]
+}

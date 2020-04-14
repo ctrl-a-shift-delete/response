@@ -1,0 +1,27 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "react-redux"],
+  "extends": [
+    "plugin:prettier/recommended",
+    "airbnb-typescript",
+    "prettier",
+    "prettier/@typescript-eslint",
+    "prettier/react",
+    "plugin:react-redux/recommended"
+  ],
+  "rules": {
+    // Make prettier code formatting suggestions more verbose.
+    "prettier/prettier": ["warn"],
+    // Disable <Fragment> => <> replacement. Feel free to change
+    "react/jsx-fragments": "off",
+    // Disable prefer default export
+    "import/prefer-default-export": "off",
+    "no-param-reassign": "off",
+    "import/no-named-as-default-member": "off",
+    "import/no-cycle": "off",
+    "react-hooks/exhaustive-deps": "off",
+    "jsx-a11y/label-has-associated-control": "off",
+    "react/no-unescaped-entities": "off"
+  }
+}
